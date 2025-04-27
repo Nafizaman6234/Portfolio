@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Nafi Zaman | 3D Artist & Game Developer</title>
+  <!-- Favicon -->
+  <link rel="icon" href="assets/images/icon.png" type="image/png">
+
+  <!-- AOS Animation CSS -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- Loading Screen -->
+  <div id="loading">
+    <div class="loader"></div>
+    <p>Loading...</p>
+  </div>
+
+  <!-- Main Content -->
+  <div id="main-content" style="display: none;">
+
+    <!-- Hero Section -->
+    <section id="hero">
+      <div class="hero-content" data-aos="fade-down" data-aos-duration="1500">
+        <img src="assets/images/ProfilePic.jpg" alt="Your Photo" class="profile-pic">
+        <h1>Hey, I'm MD.Nafiuzzaman Nafi</h1>
+        <h2>3D Artist & Aspiring Game Developer</h2>
+        <a href="assets/cv/my_cv.pdf" download class="btn">Download CV</a>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" data-aos="fade-up" data-aos-duration="1200">
+      <h2>About Me</h2>
+      <p>
+        I'm a passionate 3D artist who loves modeling, rendering, and animating in Blender. 
+        Currently expanding my skills in game development using Unreal Engine.
+      </p>
+      <div class="skills">
+        <p><strong>Skills:</strong> Blender, Unreal Engine, 3D Modeling, Animation</p>
+        <p><strong>Learning:</strong> Game Development (Unreal Engine 5)</p>
+      </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" data-aos="zoom-in" data-aos-duration="1200">
+      <h2>My Projects</h2>
+      <div class="portfolio-grid">
+        <!-- Portfolio Item 1 -->
+        <div class="portfolio-item">
+          <!-- Images Section for Portfolio Item -->
+          <div class="image-gallery">
+            <img src="assets/images/pic1.1.jpg" class="gallery-image" alt="Project 1 Image 1">
+            <img src="assets/images/pic1.2.jpg" class="gallery-image" alt="Project 1 Image 2">
+          </div>
+          <p>Project Title 1</p>
+          <div class="video-gallery">
+            <video controls>
+              <source src="assets/videos/pro1.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+          </div>
+        </div>
+
+        <!-- Portfolio Item 2 -->
+        <div class="portfolio-item">
+          <!-- Images Section for Portfolio Item -->
+          <div class="image-gallery">
+            <img src="assets/images/pic2.1.png" class="gallery-image" alt="Project 2 Image 1">
+            <img src="assets/images/pic2.2.png" class="gallery-image" alt="Project 2 Image 2">
+          </div>
+          <p>Project Title 2</p>
+          <div class="video-gallery">
+            <video controls>
+              <source src="assets/videos/pro2.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" data-aos="fade-up" data-aos-duration="1200">
+      <h2>Contact Me</h2>
+      <div class="social-links">
+        <a href="https://github.com/Nafizaman6234" target="_blank">GitHub</a>
+        <a href="https://www.linkedin.com/in/nafi-zaman-b44231206/" target="_blank">LinkedIn</a>
+        <a href="mailto:nafizaman6234@gmail.com">Email</a>
+      </div>
+    </section>
+
+  </div>
+
+  <!-- Scroll to Top Button -->
+  <button onclick="scrollToTop()" id="scrollTopBtn" title="Go to top">↑</button>
+
+  <!-- AOS Animation JS -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
+  <script src="script.js"></script>
+</body>
+</html>
